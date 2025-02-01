@@ -1,0 +1,1 @@
+This repository demonstrates a common JavaScript bug related to loose comparison with null. The `foo` function attempts to handle null values, but due to loose comparison (using `===`), the addition operation is still performed in some cases, leading to unexpected results. The solution demonstrates the use of strict equality (`===`) to ensure accurate null checks.
